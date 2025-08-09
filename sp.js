@@ -6,4 +6,11 @@ const Bangle = 99.5;
 
 const TotalMarks = math + Biology + Chemistry + Physics + Bangle;
 const averageMarks = parseFloat((TotalMarks / 5).toFixed(2));
-console.log(averageMarks);
+//
+
+const input = 119;
+const givenNumber = 5;
+const reminder = input % givenNumber;
+const a = isNaN("11");
+const b = isNaN("rakib");
+console.log(b);
