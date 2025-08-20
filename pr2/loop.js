@@ -1,8 +1,9 @@
-let number = 1;
-let sum = 0;
-while (number < 10) {
-  console.log(number);
-  sum = sum + number;
-  console.log("sum", sum);
-  number++;
+// let i = 1;
+// while (i <= 10) {
+//   console.log(i);
+//   i = i + 2;
+// }
+
+for (let i = 1; i <= 10; i = i + 2) {
+  console.log(i);
 }
